@@ -1,6 +1,6 @@
 module.exports = {
      express: {
-        port: 3001
+        port: 5000
      },
      url:'http://localhost:3000',
      oracleDB:{
