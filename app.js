@@ -16,6 +16,6 @@ app.use(function (req, res, next) {
 
 app.use('/crmRegister',crmRegister);
 
-server = app.listen(config.express.port, function(){
+server = app.listen(process.env.PORT || config.express.port, function(){
     console.log('port '+config.express.port)
 });
